@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import RepetitionExercise from "./components/RepetitionExercise";
 import DurationExercise from "./components/DurationExercise";
+import RunningExercise from "./components/RunningExercise"; // Import new component
 
 function App() {
   const [currentScreen, setCurrentScreen] = useState("menu");
@@ -11,6 +12,7 @@ function App() {
     { name: "Running", type: "duration" },
     { name: "Sit Ups", type: "repetition" },
     { name: "Plank", type: "duration" },
+    { name: "Running Exercise", type: "running" }, // New exercise
   ];
 
   const handleExerciseClick = (exercise) => {
@@ -47,6 +49,12 @@ function App() {
       )}
       {currentScreen === "duration" && (
         <DurationExercise
+          name={currentExercise.name}
+          returnToMenu={returnToMenu}
+        />
+      )}
+      {currentScreen === "running" && (
+        <RunningExercise
           name={currentExercise.name}
           returnToMenu={returnToMenu}
         />
