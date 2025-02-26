@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nicotif/react-exercise-app/static/css/main.e6c13ad2.css",
+    "main.js": "/nicotif/react-exercise-app/static/js/main.e08158c8.js",
+    "static/js/453.e514d855.chunk.js": "/nicotif/react-exercise-app/static/js/453.e514d855.chunk.js",
+    "index.html": "/nicotif/react-exercise-app/index.html",
+    "main.e6c13ad2.css.map": "/nicotif/react-exercise-app/static/css/main.e6c13ad2.css.map",
+    "main.e08158c8.js.map": "/nicotif/react-exercise-app/static/js/main.e08158c8.js.map",
+    "453.e514d855.chunk.js.map": "/nicotif/react-exercise-app/static/js/453.e514d855.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e08158c8.js"
+  ]
+}
